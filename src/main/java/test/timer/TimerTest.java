@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.Test;
 
 public class TimerTest {
-	private Timer timer = new ZilongWheelTimer();
+	private Timer timer = new SimpleHashedWheelTimer();
 	private long startTime;
 
 	@Test
